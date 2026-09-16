@@ -1,60 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Selvix AI favicon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Selvix AI icon">
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#020d1a"/>
-      <stop offset="100%" stop-color="#01070d"/>
+      <stop offset="0%" stop-color="#010d1a"/>
+      <stop offset="100%" stop-color="#02060d"/>
     </linearGradient>
-    <linearGradient id="neon" x1="0" x2="1">
-      <stop offset="0%" stop-color="#dffcff"/>
-      <stop offset="18%" stop-color="#62ebff"/>
-      <stop offset="50%" stop-color="#1cc9ff"/>
-      <stop offset="72%" stop-color="#0d8aff"/>
-      <stop offset="100%" stop-color="#dffcff"/>
+    <linearGradient id="edge" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e7ffff"/>
+      <stop offset="14%" stop-color="#7ce8ff"/>
+      <stop offset="46%" stop-color="#1ecbff"/>
+      <stop offset="72%" stop-color="#118dff"/>
+      <stop offset="100%" stop-color="#dffbff"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0e4aff"/>
+      <stop offset="20%" stop-color="#0ca9ff"/>
+      <stop offset="55%" stop-color="#1ed1ff"/>
+      <stop offset="100%" stop-color="#0b7bff"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="0" stdDeviation="1.4" flood-color="#3ae4ff" flood-opacity="1"/>
-      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#10b8ff" flood-opacity="0.9"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#4ae7ff" flood-opacity="1"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="3.5" flood-color="#10b4ff" flood-opacity="0.9"/>
     </filter>
   </defs>
 
-  <rect width="64" height="64" fill="url(#bg)" rx="12"/>
+  <rect width="128" height="128" fill="url(#bg)" rx="18"/>
 
   <g filter="url(#glow)">
-    <path d="M15 15 C12 20, 12 24, 15 28
-             L20 28 C22 22, 27 19, 33 19
-             C37 19, 41 21, 41 25
-             C41 28, 38 31, 31 33
-             L22 35 C15 37, 11 40, 11 46
-             C11 52, 17 56, 24 56
-             C32 56, 38 52, 41 47
-             L45 47 C42 53, 35 58, 26 58
-             C16 58, 8 53, 8 45
-             C8 38, 11 35, 20 32
-             L29 30 C35 28, 39 26, 39 22
-             C39 18, 35 15, 29 15
-             C23 15, 18 17, 15 15 Z"
-          fill="none" stroke="url(#neon)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30 18 C24 22, 22 27, 26 33
+             L34 33 C40 27, 46 24, 54 24
+             C60 24, 66 26, 66 32
+             C66 36, 62 40, 52 42
+             L37 45 C29 47, 24 50, 24 57
+             C24 64, 31 69, 40 69
+             C49 69, 55 66, 61 60
+             L68 60 C63 69, 55 74, 44 74
+             C30 74, 19 68, 19 58
+             C19 50, 24 46, 35 43
+             L50 39 C58 37, 64 34, 64 28
+             C64 23, 59 19, 52 19
+             C45 19, 39 21, 30 18 Z"
+          fill="none" stroke="url(#edge)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <g opacity="0.9" stroke="url(#neon)" stroke-width="1.3" fill="none" stroke-linecap="round">
-    <path d="M10 18 L15 18"/>
-    <path d="M10 24 L14 24"/>
-    <path d="M10 39 L14 39"/>
-    <path d="M10 46 L15 46"/>
-    <circle cx="10" cy="18" r="1.1" fill="url(#neon)" stroke="none"/>
-    <circle cx="10" cy="24" r="1.1" fill="url(#neon)" stroke="none"/>
-    <circle cx="10" cy="39" r="1.1" fill="url(#neon)" stroke="none"/>
-    <circle cx="10" cy="46" r="1.1" fill="url(#neon)" stroke="none"/>
+  <path d="M16 26 H26 M16 22 V32 M31 26 H39 M59 22 H66 M58 31 H69" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="16" cy="26" r="1.2" fill="#66ecff"/>
+  <circle cx="26" cy="26" r="1.2" fill="#66ecff"/>
+  <circle cx="31" cy="26" r="1.2" fill="#66ecff"/>
+  <circle cx="39" cy="26" r="1.2" fill="#66ecff"/>
+  <circle cx="59" cy="22" r="1.2" fill="#66ecff"/>
+  <circle cx="66" cy="22" r="1.2" fill="#66ecff"/>
+  <circle cx="58" cy="31" r="1.2" fill="#66ecff"/>
+  <circle cx="69" cy="31" r="1.2" fill="#66ecff"/>
+
+  <g stroke="url(#edge)" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M86 18 C92 18, 96 22, 96 28 C96 36, 90 40, 83 42"/>
+    <path d="M80 52 C87 52, 96 58, 99 66"/>
+    <path d="M67 82 C75 88, 82 90, 91 90"/>
+    <path d="M47 95 C58 103, 75 105, 88 103"/>
   </g>
 
-  <g opacity="0.9" stroke="url(#neon)" stroke-width="1.2" fill="none" stroke-linecap="round">
-    <path d="M48 18 L54 18 L54 23"/>
-    <path d="M48 35 L54 35 L54 41"/>
-    <path d="M46 53 L49 53 L49 57"/>
-    <circle cx="54" cy="18" r="1.1" fill="url(#neon)" stroke="none"/>
-    <circle cx="54" cy="35" r="1.1" fill="url(#neon)" stroke="none"/>
-    <circle cx="49" cy="53" r="1.1" fill="url(#neon)" stroke="none"/>
+  <g fill="none" stroke="url(#edge)" stroke-width="1.2" opacity="0.9">
+    <path d="M80 39 L88 39 L88 46"/>
+    <path d="M98 51 L103 51 L103 57"/>
+    <path d="M93 75 L98 75 L98 82"/>
+    <circle cx="88" cy="39" r="1.1" fill="#66ecff" stroke="none"/>
+    <circle cx="103" cy="51" r="1.1" fill="#66ecff" stroke="none"/>
+    <circle cx="98" cy="75" r="1.1" fill="#66ecff" stroke="none"/>
   </g>
 
-  <path d="M18 53 C23 56, 28 57, 32 57 C38 57, 43 56, 49 53" fill="none" stroke="url(#neon)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+  <g fill="url(#fill)" stroke="url(#edge)" stroke-width="1.4" filter="url(#glow)">
+    <path d="M77 42 C83 36, 91 36, 97 40
+             C101 43, 104 49, 104 54
+             C104 61, 101 67, 96 71
+             C92 74, 87 75, 82 74
+             C78 73, 74 70, 72 66
+             C70 62, 70 58, 73 54
+             C75 50, 78 48, 82 47
+             C85 46, 88 46, 90 44
+             C92 42, 90 39, 86 39
+             C82 39, 79 41, 77 42 Z" opacity="0.22"/>
+  </g>
+
+  <path d="M78 46 C85 39, 95 39, 100 45 C104 50, 105 58, 101 63 C97 68, 90 70, 84 69 C80 68, 77 66, 75 63 C72 58, 72 52, 76 48 C77 47, 77 47, 78 46 Z" fill="none" stroke="url(#edge)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M75 63 C82 70, 87 75, 92 82" fill="none" stroke="url(#edge)" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M98 50 L106 50" fill="none" stroke="url(#edge)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <path d="M94 87 C88 95, 79 98, 69 99" fill="none" stroke="url(#edge)" stroke-width="1.3" stroke-linecap="round" opacity="0.95"/>
 </svg>
