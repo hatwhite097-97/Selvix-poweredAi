@@ -27,19 +27,19 @@
 
   <g filter="url(#glow)">
     <path d="M30 18 C24 22, 22 27, 26 33
-             L34 33 C40 27, 46 24, 54 24
-             C60 24, 66 26, 66 32
-             C66 36, 62 40, 52 42
-             L37 45 C29 47, 24 50, 24 57
-             C24 64, 31 69, 40 69
-             C49 69, 55 66, 61 60
-             L68 60 C63 69, 55 74, 44 74
-             C30 74, 19 68, 19 58
-             C19 50, 24 46, 35 43
-             L50 39 C58 37, 64 34, 64 28
-             C64 23, 59 19, 52 19
-             C45 19, 39 21, 30 18 Z"
-          fill="none" stroke="url(#edge)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+              L34 33 C40 27, 46 24, 54 24
+              C60 24, 66 26, 66 32
+              C66 36, 62 40, 52 42
+              L37 45 C29 47, 24 50, 24 57
+              C24 64, 31 69, 40 69
+              C49 69, 55 66, 61 60
+              L68 60 C63 69, 55 74, 44 74
+              C30 74, 19 68, 19 58
+              C19 50, 24 46, 35 43
+              L50 39 C58 37, 64 34, 64 28
+              C64 23, 59 19, 52 19
+              C45 19, 39 21, 30 18 Z"
+           fill="none" stroke="url(#edge)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <path d="M16 26 H26 M16 22 V32 M31 26 H39 M59 22 H66 M58 31 H69" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-linecap="round"/>
@@ -70,18 +70,18 @@
 
   <g fill="url(#fill)" stroke="url(#edge)" stroke-width="1.4" filter="url(#glow)">
     <path d="M77 42 C83 36, 91 36, 97 40
-             C101 43, 104 49, 104 54
-             C104 61, 101 67, 96 71
-             C92 74, 87 75, 82 74
-             C78 73, 74 70, 72 66
-             C70 62, 70 58, 73 54
-             C75 50, 78 48, 82 47
-             C85 46, 88 46, 90 44
-             C92 42, 90 39, 86 39
-             C82 39, 79 41, 77 42 Z" opacity="0.22"/>
+              C101 43, 104 49, 104 54
+              C104 61, 101 67, 96 71
+              C92 74, 87 75, 82 74
+              C78 73, 74 70, 72 66
+              C70 62, 70 58, 73 54
+              C75 50, 78 48, 82 47
+              C85 46, 88 46, 90 44
+              C92 42, 90 39, 86 39
+              C82 39, 79 41, 77 42 Z" opacity="0.22"/>
   </g>
 
-  <path d="M78 46 C85 39, 95 39, 100 45 C104 50, 105 58, 101 63 C97 68, 90 70, 84 69 C80 68, 77 66, 75 63 C72 58, 72 52, 76 48 C77 47, 77 47, 78 46 Z" fill="none" stroke="url(#edge)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 46 C85 39, 95 39, 100 45 C104 50, 105 58, 101 63 C97 68, 90 70, 84 69 C80 68, 77 66, 75 63 C72 58, 72 52, 76 48 C77 47, 77 47, 78 46 Z" fill="none" stroke="url(#edge)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M75 63 C82 70, 87 75, 92 82" fill="none" stroke="url(#edge)" stroke-width="2.1" stroke-linecap="round"/>
   <path d="M98 50 L106 50" fill="none" stroke="url(#edge)" stroke-width="1.6" stroke-linecap="round"/>
 
