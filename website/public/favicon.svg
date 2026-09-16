@@ -39,7 +39,7 @@
               L50 39 C58 37, 64 34, 64 28
               C64 23, 59 19, 52 19
               C45 19, 39 21, 30 18 Z"
-           fill="none" stroke="url(#edge)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+         fill="none" stroke="url(#edge)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <path d="M16 26 H26 M16 22 V32 M31 26 H39 M59 22 H66 M58 31 H69" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-linecap="round"/>
